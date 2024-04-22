@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class Karnet{
+class KarnetOkresowy{
 private:
     int numer;
     int rok;
@@ -16,10 +16,21 @@ private:
     int sekunda;
 
 public: 
-    Karnet(int numer, int rok, int miesiac, int dzien, int godzina, int minuta, int sekunda) 
+    KarnetOkresowy(int numer, int rok, int miesiac, int dzien, int godzina, int minuta, int sekunda) 
     : numer(numer), rok(rok), miesiac(miesiac), dzien(dzien), godzina(godzina), minuta(minuta), sekunda(sekunda) {}
-    static vector<Karnet> karnety;
+    static vector<KarnetOkresowy> karnetyOkresowe;
 };  
+
+class KarnetPrzejazdowy{
+private:
+    int numer;
+    int liczbaPrzejazdow;
+
+public: 
+    KarnetPrzejazdowy(int numer, int liczbaPrzejazdow) 
+    : numer(numer), liczbaPrzejazdow(liczbaPrzejazdow) {}
+    static vector<KarnetPrzejazdowy> karnetyPrzejazdowe;
+}; 
 
 class Kasa{
 private:
