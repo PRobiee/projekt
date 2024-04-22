@@ -2,7 +2,7 @@
 #include <cmath> 
 
 using namespace std;
-
+//giganiga
 int main() {
     int wybor;
     double bok, promien;
