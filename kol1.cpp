@@ -1,8 +1,11 @@
+//test
+
 #include <iostream>
 #include <cmath> 
 
 using namespace std;
 //giganiga
+// GIGANIGA????
 int main() {
     int wybor;
     double bok, promien;
